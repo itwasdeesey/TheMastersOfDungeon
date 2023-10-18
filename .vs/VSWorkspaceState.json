@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\img",
+    "\\img\\gallery"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\img\\gallery",
   "PreviewInSolutionExplorer": false
 }

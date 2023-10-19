@@ -1,6 +1,6 @@
-/**************** extend css start ****************/
+
 @import url("https://fonts.googleapis.com/css?family=Aclonica|Poppins:300,400,500,600&display=swap");
-/* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
+
 .btn_1, .live_stareams .live_stareams_slide .live_stareams_slide_img:after, .Latest_War .Latest_War_text:after, .gallery_part .single_gallery_item .single_gallery_item_iner:after, .footer_part .single_footer_part .mail_part .email_icon {
   background-image: -webkit-gradient(linear, right top, left top, from(#ff0000), color-stop(51%, #c6019a), to(#ff0000));
   background-image: -webkit-linear-gradient(right, #ff0000 0%, #c6019a 51%, #ff0000 100%);
@@ -8,7 +8,7 @@
   background-image: linear-gradient(to left, #ff0000 0%, #c6019a 51%, #ff0000 100%);
 }
 
-/* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
+
 .main_menu .main-menu-item .nav-item a:before {
   background-image: -webkit-gradient(linear, right top, left top, from(#c6019a), to(#ff0000));
   background-image: -webkit-linear-gradient(right, #c6019a 0%, #ff0000 100%);
@@ -16,7 +16,7 @@
   background-image: linear-gradient(to left, #c6019a 0%, #ff0000 100%);
 }
 
-/* line 14, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
+
 .cta_part .banner_btn_1:hover, .cta_part .banner_btn_2:hover {
   background-image: -webkit-gradient(linear, right top, left top, from(#57ddff), color-stop(51%, #57ddff), to(#57ddff));
   background-image: -webkit-linear-gradient(right, #57ddff 0%, #57ddff 51%, #57ddff 100%);
@@ -24,16 +24,13 @@
   background-image: linear-gradient(to left, #57ddff 0%, #57ddff 51%, #57ddff 100%);
 }
 
-/* line 26, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
+
 .single_page_menu .main-menu-item .nav-item a:before {
   background: -moz-linear-gradient(16deg, #000 0%, #000 100%);
   background: -webkit-linear-gradient(16deg, #000 0%, #000 100%);
   background: -ms-linear-gradient(16deg, #000 0%, #000 100%);
 }
 
-/**************** extend css start ****************/
-/**************** common css start ****************/
-/* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 body {
   font-family: "Aclonica", sans-serif;
   padding: 0;
@@ -41,288 +38,269 @@ body {
   font-size: 14px;
 }
 
-/* line 9, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+
 .message_submit_form:focus {
   outline: none;
 }
 
-/* line 12, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+
 input:hover, input:focus {
   outline: none !important;
 }
 
-/* line 15, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+
 .gray_bg {
   background-color: #f7f7f7;
 }
 
-/* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+
 .section_padding {
   padding: 140px 0px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+ 
   .section_padding {
     padding: 100px 0px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+ 
   .section_padding {
     padding: 70px 0px;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+ 
   .section_padding {
     padding: 70px 0px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+ 
   .section_padding {
     padding: 70px 0px;
   }
 }
 
-/* line 33, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+
 .single_padding_top {
   padding-top: 140px !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 33, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .single_padding_top {
     padding-top: 70px !important;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 33, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+ 
   .single_padding_top {
     padding-top: 70px !important;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 33, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+ 
   .single_padding_top {
     padding-top: 70px !important;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 33, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .single_padding_top {
     padding-top: 100px !important;
   }
 }
 
-/* line 48, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+
 .padding_top {
   padding-top: 140px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 48, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .padding_top {
     padding-top: 100px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 48, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .padding_top {
     padding-top: 70px;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 48, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .padding_top {
     padding-top: 70px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 48, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .padding_top {
     padding-top: 70px;
   }
 }
 
-/* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+
 .padding_bottom {
   padding-bottom: 140px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_bottom {
-    padding-bottom: 100px;
-  }
+    .padding_bottom {
+        padding-bottom: 100px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_bottom {
-    padding-bottom: 70px;
-  }
+    .padding_bottom {
+        padding-bottom: 70px;
+    }
 }
 
 @media (max-width: 576px) {
-  /* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_bottom {
-    padding-bottom: 70px;
-  }
+    .padding_bottom {
+        padding-bottom: 70px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .padding_bottom {
-    padding-bottom: 70px;
-  }
+    .padding_bottom {
+        padding-bottom: 70px;
+    }
 }
 
-/* line 78, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 a {
-  text-decoration: none;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
-/* line 81, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-a:hover {
-  outline: none;
-  text-decoration: none;
-}
+    a:hover {
+        outline: none;
+        text-decoration: none;
+    }
 
-/* line 87, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #fff;
-  font-family: "Aclonica", sans-serif;
+    color: #fff;
+    font-family: "Aclonica", sans-serif;
 }
 
-/* line 91, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 p {
-  font-family: "Poppins", sans-serif;
-  line-height: 29px;
-  font-size: 15px;
-  margin-bottom: 0px;
-  color: #fff;
-  font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 29px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: 300;
 }
 
-/* line 99, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 h2 {
-  font-size: 44px;
-  line-height: 28px;
-  font-weight: 600;
-  line-height: 1.222;
+    font-size: 44px;
+    line-height: 28px;
+    font-weight: 600;
+    line-height: 1.222;
 }
 
 @media (max-width: 576px) {
-  /* line 99, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  h2 {
-    font-size: 22px;
-    line-height: 25px;
-  }
+    h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 99, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  h2 {
+    h2 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+}
+
+h3 {
     font-size: 24px;
     line-height: 25px;
-  }
-}
-
-/* line 115, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-h3 {
-  font-size: 24px;
-  line-height: 25px;
 }
 
 @media (max-width: 576px) {
-  /* line 115, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  h3 {
-    font-size: 20px;
-  }
+    h3 {
+        font-size: 20px;
+    }
 }
 
-/* line 124, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 h5 {
-  font-size: 18px;
-  line-height: 22px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
-/* line 129, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
-/* line 132, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 a:focus, .button:focus, button:focus, .btn:focus {
-  text-decoration: none;
-  outline: none;
-  box-shadow: none;
-  -webkit-transition: 1s;
-  transition: 1s;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-transition: 1s;
+    transition: 1s;
 }
 
-/* line 139, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 .section_tittle {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 @media (max-width: 991px) {
-  /* line 139, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .section_tittle {
-    margin-bottom: 40px;
-  }
+    .section_tittle {
+        margin-bottom: 40px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 139, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .section_tittle {
-    margin-bottom: 50px;
-  }
+    .section_tittle {
+        margin-bottom: 50px;
+    }
 }
 
-/* line 147, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 .section_tittle h2 {
-  font-size: 45px;
-  color: #fff;
-  line-height: 50px;
-  font-weight: 500;
-  position: relative;
-  margin-bottom: 28px;
+    font-size: 45px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 28px;
 }
 
 @media (max-width: 576px) {
-  /* line 147, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .section_tittle h2 {
-    font-size: 25px;
-    line-height: 35px;
-    margin-bottom: 15px;
-  }
+    .section_tittle h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 147, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
-  .section_tittle h2 {
-    font-size: 25px;
-    line-height: 35px;
-    margin-bottom: 15px;
+    .section_tittle h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+}
+
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 147, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .section_tittle h2 {
     font-size: 30px;
     line-height: 40px;
@@ -331,14 +309,14 @@ a:focus, .button:focus, button:focus, .btn:focus {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 147, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .section_tittle h2 {
     font-size: 35px;
     line-height: 40px;
   }
 }
 
-/* line 175, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+
 .section_tittle p {
   text-transform: capitalize;
   line-height: 30px;
@@ -346,47 +324,47 @@ a:focus, .button:focus, button:focus, .btn:focus {
 }
 
 @media (max-width: 576px) {
-  /* line 175, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+ 
   .section_tittle p {
     margin-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 175, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+ 
   .section_tittle p {
     margin-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 175, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .section_tittle p {
     margin-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 175, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .section_tittle p {
     margin-bottom: 10px;
   }
 }
 
-/* line 193, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 198, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+
 .mb_110 {
   margin-bottom: 110px;
 }
 
 @media (max-width: 576px) {
-  /* line 198, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
+  
   .mb_110 {
     margin-bottom: 220px;
   }
@@ -6311,8 +6289,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 56, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .single_footer_part p {
-  margin-bottom: 10px;
-  color: #bebebe;
+    margin-bottom: 10px;
+    color: #ff0000;
 }
 
 /* line 63, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
@@ -6376,12 +6354,12 @@ h1, h2, h3, h4, h5, h6 {
   background-size: 200% auto;
 }
 
-/* line 119, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .single_footer_part .mail_part .email_icon i {
   font-size: 15px;
 }
 
-/* line 123, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .single_footer_part .mail_part .button-contactForm {
   padding: 11px;
   border: 2px solid;
@@ -6389,24 +6367,24 @@ h1, h2, h3, h4, h5, h6 {
   border-image-slice: 1;
 }
 
-/* line 132, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part hr {
   background-color: #cad7dc;
   margin-top: 50px;
   margin-bottom: 25px;
 }
 
-/* line 138, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .footer_icon {
   text-align: right;
 }
 
-/* line 141, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .footer_icon li {
   display: inline-block;
 }
 
-/* line 144, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .footer_icon li a {
   font-size: 14px;
   color: #555555;
@@ -6416,7 +6394,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 144, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+  
   .footer_part .footer_icon li a {
     margin-left: 0px;
     margin-right: 25px;
@@ -6424,70 +6402,69 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 144, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+ 
   .footer_part .footer_icon li a {
     margin-left: 0px;
     margin-right: 25px;
   }
 }
 
-/* line 165, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .footer_icon li a :hover {
   color: #ff0000;
 }
 
 @media (max-width: 576px) {
-  /* line 138, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+ 
   .footer_part .footer_icon {
     float: left;
     margin-top: 15px;
   }
 }
 
-/* line 184, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .copyright_text p {
   color: #888;
 }
 
-/* line 188, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .copyright_text span {
   color: #ff0000;
   font-size: 12px;
 }
 
 @media (max-width: 991px) {
-  /* line 183, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+  
   .footer_part .copyright_text {
     text-align: center !important;
   }
 }
 
-/* line 200, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .copyright_text p a {
   color: #ff0000;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 204, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .copyright_text p a:hover {
   color: #ff0000;
 }
 
-/* line 209, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+
 .footer_part .info {
   color: red !important;
 }
 
 @media (max-width: 991px) {
-  /* line 214, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
+  
   .footer_part .footer_icon {
     text-align: center;
     float: none;
   }
 }
 
-/* line 223, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .copygight_text {
   background-color: #0b111f;
   padding: 30px 0;
